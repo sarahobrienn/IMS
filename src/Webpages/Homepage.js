@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 <link rel="HomepageCSS" href="styles.css"/>
 
 function HomePage() {
@@ -30,5 +31,3 @@ function HomePage() {
 </div>
     );
 }
-export default HomePage;
-
