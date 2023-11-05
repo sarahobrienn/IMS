@@ -1,0 +1,47 @@
+/* NotificationPage.css */
+.notification-page {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .notification-list {
+    margin-top: 20px;
+  }
+  
+  .notification {
+    background-color: #f3f3f3;
+    border-left: 5px solid #007bff;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .notification h2 {
+    margin: 0 0 10px 0;
+    color: #333;
+  }
+  
+  .notification p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .timestamp {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
+  .relative-container {
+    position: relative;
+    /* Other styles as needed */
+}
+
+h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0; /* Adjust as needed */
+    /* Other styles as needed */
+}
