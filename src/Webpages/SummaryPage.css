@@ -1,0 +1,25 @@
+.summary-page {
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;  
+    background-color: #0d0c30;
+    color: white;  
+    padding: 0px 0;  
+}
+
+.summary-page h1 {
+    margin-bottom: 20px;  
+    color: white;  
+}
+
+.summary-page .chart-container {
+    background-color: #282c34;  
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 60%;  
+    max-width: 500px;
+}

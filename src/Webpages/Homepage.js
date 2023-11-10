@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
-<link rel="HomepageCSS" href="styles.css"/>
+import './Homepage.css';  // Importing the 'Homepage.css' file
 
 function HomePage() {
   return (
@@ -52,3 +51,5 @@ function HomePage() {
       </div>
   );
 }
+
+export default HomePage;
