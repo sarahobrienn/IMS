@@ -1,6 +1,7 @@
 body{ /* For all pages*/
     background-position: center;    
-    background-color:#0d0c30;
+
+    background-color:#020042;
     font-family: "Garamond",Serif;
     text-align: center;
     margin: auto;
@@ -28,9 +29,4 @@ h2{
     font-size: 20px;
     margin: 5%;
     line-height: 2; 
-}
-
-button {
-  margin-top: 20px;  /* Adjust as needed */
-  margin-bottom: 20px;  /* Adjust as needed */
 }

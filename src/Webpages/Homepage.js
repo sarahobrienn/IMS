@@ -6,7 +6,33 @@ function HomePage() {
   return (
     <div className="homepage">
       <h1>Inventory Management System</h1>
-      <Link to="/signin">
+
+            <div className="container">
+          
+          <div className="bell">
+            <img src="bell.gif" alt="Notification Icon"/>
+            <Link to="/notification">
+        <button>Notifications Page</button>
+      </Link>
+          </div>
+
+          <div className="summary">
+            <img src="summary.gif" alt="Summary Icon"/>
+            <Link to="/summary">
+        <button>Summary Page</button>
+      </Link>
+          </div>
+
+          <div className="inventory">
+            <img src="inventory.gif" alt="Inventory Icon"/>
+            <Link to="/inventory">
+        <button>Inventory</button>
+      </Link>
+          </div>
+
+          <div className="signin">
+          <img src="signin.gif" alt="Signin Icon"/>
+          <Link to="/signin">
         <button>Sign-in Page</button>
       </Link>
 
