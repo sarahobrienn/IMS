@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body{ /* For all pages*/
     background-position: center;    
 
@@ -11,16 +12,31 @@ body{ /* For all pages*/
     padding: 200px; /* Adjust the padding to your preference */
     border: 50px solid #020042; /* Add a border if needed */
     border-radius: 80px; /* Optional: Round the corners */
+=======
+
+body{ 
+  background-color:#0d0c30;
+  font-family: "Garamond",Serif;
+  text-align: center;
+}
+/*
+.Container {
+  background-color: #2e316a; 
+  padding: 200px; 
+  border: 50px solid #020042; 
+  border-radius: 80px; 
+>>>>>>> Stashed changes
 }
 .bell {
-    max-width: 1%;
-    max-height: 10%;
-  }
+  max-width: 10%;
+  max-height: 10%;
+}
 h1{
-    color:white;
-    font-family: "Garamond",Serif;
+  color:white;
+  font-family: "Garamond",Serif;
 }
 h2{
+<<<<<<< Updated upstream
     color:white;
     position: absolute;
     bottom: 0;
@@ -30,3 +46,13 @@ h2{
     margin: 5%;
     line-height: 2; 
 }
+=======
+  color:white;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-family: "Garamond",Serif;
+  font-size: 20px;
+  line-height: 2; 
+}*/
+>>>>>>> Stashed changes
