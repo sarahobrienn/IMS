@@ -1,49 +1,85 @@
 .homepage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 20vh;
-    text-align: center;
-    padding: 0px;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;  /* You can adjust this width as needed */
-    margin-top: 20px;
-  }
-  
-  .container h2 {
-    max-width: 800px;
-  }
-  
-  .container .bell {
-    position: relative;
-}
-
-.container .bell img {
-    width: 150px;
-    margin-top: 0px;
+  text-align:center;
+    }
+  h2{
+    color:white;
     position: absolute;
-    left: -75px;  /* Adjust this value to move the image more or less to the left */
-}
-
-  
-  button {
-    margin-top: 5px;
-    padding: 7.5px 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    bottom: 0;
+    text-align: center;
+    font-family: "Garamond",Serif;
+    font-size: 30px;
+    line-height: 2; 
+    margin: auto;
   }
-  
-  button:hover {
-    background-color: #555;
+    .container {
+    padding: 200px; 
+      background-color: #2e316a; 
+      padding: 200px; 
+      border: 50px solid #020042; 
+      border-radius: 80px; 
+      width: 800px;
+      height: 700px;
+      margin: auto;
+    }
+  .bell img{
+      max-width: 30%;
+      max-height: 25%;
+      position: relative;
+      bottom: 90px;
+      right: 250px;
+    }
+  .bell button{
+  position: relative;
+  right: 450px;
+  bottom: 70px;
   }
-
+  .summary img{
+    width: 900px;
+    height: 500px;
+    position: relative;
+    bottom: 500px;
+    left: 250px;
+  }
+  .summary button{
+  position: relative;
+  left: 300px;
+  bottom: 640px;
+  }
+  .inventory img{
+    max-width: 24%;
+    max-height: 25%;
+    position: relative;
+    bottom: 330px;
+    right: 260px;
+  }
+  .inventory button{
+  position: relative;
+  right: 410px;
+  bottom: 300px;
+  }
+  .signin img{
+    max-width: 30%;
+    max-height: 25%;
+    position: relative;
+    bottom: 580px;
+    left: 380px;
+  }
+  .signin button{
+  position: relative;
+  left: 190px;
+  bottom: 560px;
+  }
+    button {
+      padding: 7.5px 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+    button:hover {
+      background-color: #555;
+    }
+  
