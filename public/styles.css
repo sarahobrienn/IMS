@@ -12,10 +12,7 @@ body{ /* For all pages*/
   border: 50px solid #020042; /* Add a border if needed */
   border-radius: 80px; /* Optional: Round the corners */
 }
-.bell {
-  max-width: 1%;
-  max-height: 10%;
-}
+
 h1{
   color:white;
   font-family: "Garamond",Serif;
