@@ -38,13 +38,12 @@ function HomePage() {
       </Link>
       </div>
         </div>
-        <h2>
+        <p>
               The Inventory Management System is a feature-rich, user-friendly web application that helps businesses streamline operations, 
               manage inventory, and make informed decisions. It enables easy product management, automated purchase generation,
               and real-time sales tracking, ultimately reducing costs and enhancing competitiveness.
-            </h2>
-      </div>   
-
+            </p>
+      </div>
   );
 }
 
