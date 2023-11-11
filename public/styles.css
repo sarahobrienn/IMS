@@ -1,28 +1,29 @@
 body{ /* For all pages*/
-    background-position: center;    
+  background-position: center;    
 
-    background-color:#020042;
-    font-family: "Garamond",Serif;
-    text-align: center;
-    margin: auto;
-  }
-  .Container {
-    background-color: #2e316a; /* Set your desired background color */
-    padding: 200px; /* Adjust the padding to your preference */
-    border: 50px solid #020042; /* Add a border if needed */
-    border-radius: 80px; /* Optional: Round the corners */
+  background-color:#020042;
+  font-family: "Garamond",Serif;
+  text-align: center;
+  margin: auto;
 }
+.Container {
+  background-color: #2e316a; /* Set your desired background color */
+  padding: 200px; /* Adjust the padding to your preference */
+  border: 50px solid #020042; /* Add a border if needed */
+  border-radius: 80px; /* Optional: Round the corners */
+}
+
 h1{
-    color:white;
-    font-family: "Garamond",Serif;
+  color:white;
+  font-family: "Garamond",Serif;
 }
 h2{
-    color:white;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    font-family: "Garamond",Serif;
-    font-size: 20px;
-    margin: 5%;
-    line-height: 2; 
+  color:white;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  font-family: "Garamond",Serif;
+  font-size: 20px;
+  margin: 5%;
+  line-height: 2; 
 }
