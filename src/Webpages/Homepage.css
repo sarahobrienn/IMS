@@ -1,21 +1,20 @@
 .homepage {
   text-align:center;
     }
-  h2{
+  .homepage p{
     color:white;
-    position: absolute;
     bottom: 0;
-    text-align: center;
     font-family: "Garamond",Serif;
     font-size: 30px;
     line-height: 2; 
-    margin: auto;
+    font-weight: bold; 
+    margin: 50px;  
   }
     .container {
     padding: 200px; 
       background-color: #2e316a; 
-      padding: 200px; 
-      border: 50px solid #020042; 
+      padding: 100px; 
+      border: 20px solid #020042; 
       border-radius: 80px; 
       width: 800px;
       height: 700px;
@@ -25,36 +24,36 @@
       max-width: 30%;
       max-height: 25%;
       position: relative;
-      bottom: 90px;
-      right: 250px;
+      bottom: 5px;
+      right: 175px;
     }
   .bell button{
   position: relative;
-  right: 450px;
-  bottom: 70px;
+  right: 360px;
+  top: 10px;
   }
   .summary img{
     width: 900px;
     height: 500px;
     position: relative;
-    bottom: 500px;
-    left: 250px;
+    bottom: 430px;
+    left: 170px;
   }
   .summary button{
   position: relative;
-  left: 300px;
-  bottom: 640px;
+  left: 220px;
+  bottom: 550px;
   }
   .inventory img{
     max-width: 24%;
     max-height: 25%;
     position: relative;
     bottom: 330px;
-    right: 260px;
+    right: 200px;
   }
   .inventory button{
   position: relative;
-  right: 410px;
+  right: 340px;
   bottom: 300px;
   }
   .signin img{
@@ -62,11 +61,11 @@
     max-height: 25%;
     position: relative;
     bottom: 580px;
-    left: 380px;
+    left: 280px;
   }
   .signin button{
   position: relative;
-  left: 190px;
+  left: 100px;
   bottom: 560px;
   }
     button {
