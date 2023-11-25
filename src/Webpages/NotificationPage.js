@@ -8,12 +8,13 @@ function NotificationPage() {
   useEffect(() => {
     const generateNotification = () => {
       const titles = ['Summary Changed', 'Inventory Changed', 'Sales Increased'];
+      const items = ['Item A', 'Item B', 'Item C', 'Item D', 'Item E', /* ... add more items */];
       const messages = [
-        'The Summary page has been updated.',
-        'Item XYZ has been added to the inventory.',
-        'Sales have increased by ..% this month.',
-        'Item XYZ has been removed in the inventory',
-        'Sales have decreased by ..% this week'
+        `The Summary page has been updated.`,
+        `${items[Math.floor(Math.random() * items.length)]} has been added to the inventory.`,
+        `Sales have increased by ${Math.floor(Math.random() * 20)}% this month.`,
+        `Item ${items[Math.floor(Math.random() * items.length)]} has been removed from the inventory.`,
+        `Sales have decreased by ${Math.floor(Math.random() * 20)}% this week.`
       ];
 
       const index = Math.floor(Math.random() * titles.length);
@@ -28,13 +29,13 @@ function NotificationPage() {
 
     const interval = setInterval(() => {
       setNotifications((prevNotifications) => [
-        ...prevNotifications,
-        generateNotification()
+        generateNotification(),
+        ...prevNotifications
       ]);
-    }, 200000); // 2 minutes interval
+    }, 2000); // 2 minutes interval
 
     return () => clearInterval(interval);
-  }, [notifications.length]); 
+  }, [notifications.length]);
 
   return (
     <div className="notification-page">
