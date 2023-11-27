@@ -1,28 +1,28 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+  }
 
-table {
-    border-collapse: collapse;
+  table {
     width: 100%;
-}
+    border-collapse: collapse;
+    margin-top: 20px; 
+  }
 
-th, td {
-    border: 1px solid #dddddd;
+  th, td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
     text-align: left;
-    padding: 8px;
-}
+  }
+  .table-container {
+    max-height: 400px;
+    overflow-y: auto;
+  }
 
-th {
-    background-color: #f2f2f2;
-}
+td {
+    max-width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 
-button {
-    padding: 8px;
-    cursor: pointer;
-}
-
-input {
-    padding: 5px;
-}
