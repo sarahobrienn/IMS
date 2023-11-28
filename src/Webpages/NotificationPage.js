@@ -8,7 +8,7 @@ function NotificationPage() {
   useEffect(() => {
     const generateNotification = () => {
       const titles = ['Summary Changed', 'Inventory Changed', 'Sales Increased'];
-      const items = ['Item A', 'Item B', 'Item C', 'Item D', 'Item E', /* ... add more items */];
+      const items = ['Shoes', 'Clothing', 'Accessories'];
       const messages = [
         `The Summary page has been updated.`,
         `${items[Math.floor(Math.random() * items.length)]} has been added to the inventory.`,
@@ -32,7 +32,7 @@ function NotificationPage() {
         generateNotification(),
         ...prevNotifications
       ]);
-    }, 2000); // 2 minutes interval
+    }, 2000); // 2 second interval
 
     return () => clearInterval(interval);
   }, [notifications.length]);
